@@ -14,3 +14,14 @@ adb devices
 ```powershell
 adb connect 127.0.0.1:62001
 ```
+
+# 连接 逍遥 模拟器
+
+逍遥模拟器需要使用自带的 adb.exe
+
+[ADB命令连接逍遥模拟器](https://blog.csdn.net/qq_15228737/article/details/81142905)
+
+```powershell
+adb connect 127.0.0.1:21503
+adb devices
+```
